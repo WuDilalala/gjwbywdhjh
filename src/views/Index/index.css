@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#index .carousel{
+    width: 100%;    
+}
+#index  div.home_class{
+    width: 100%;
+    height: 5000px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#index div.home_class div.two{
+    
+    height: 30px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+}
+#index div.home_class div.two .imgbox{
+    width: 85px;
+    height: 30px;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+    padding-right: 5px;
+    flex: 1;
+}
+
+#index div.home_class div.two img{
+    width: 80px;
+    margin-top: 5px;
+}
+#index div.home_class div.two p{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+/* ---------------酒分类--------------------------- */
+#index div.three{
+    width: 100%;
+}
+#index div.three ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding:0 15px;
+}
+#index div.three ul li{
+    margin:10px 0;
+    
+}
+#index div.three ul li img{
+    
+    width:69px;
+    height: 69px;
+}
+/* ---------------掌上秒杀--------------------------- */
+#index div.four{
+    padding: 10px 15px;
+    height: 24px;
+    border-top: 1px solid #222;
+}
+#index div.four p{
+    line-height: 24px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+#index div.four p span.end{
+    line-height: 24px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 100;
+    display: inline-block;
+    margin: 5px;
+}
+#index div.four p span.end span{
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    padding: 3px 5px;
+    background: #999;
+    border-radius: 5px;
+    color: #fff;
+}
+/* ****************轮播二**************** */
+#index div.five{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    /* transform: translatex(-300px) */
+}
+/* #index div.five::after{
+    content:"";
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    visibility: hidden;
+} */
+
+/* #index div.five .carousel_small{
+   width: 300;
+} */
+#index div.five dl.father{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #eee;
+    margin-right: 5px;
+}
+#index div.five dl dt{
+    width: 100px;
+    height: 100px;
+    padding:5px;
+    
+}
+#index div.five dl dt img{
+    width: 100px;
+    
+}
+#index div.five dl dd{
+    width: 160px;
+    height: 100px;
+    position: relative;
+}
+#index div.five dl dd h5{
+    padding: 0;
+    margin: 5px 0;
+    border-bottom: #eee 1px solid;
+    line-height: 1.5;
+    overflow: hidden;
+    font-size: 12px;
+}
+#index div.five dl dd div{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#index div.five dl dd div p{
+    font-size: 14px;
+    color: red;
+
+}
+#index div.five dl dd div span{
+    width: 36px;
+    height: 12px;
+    padding: 3px;
+    font-size: 12px;
+    background: #5EAFFE;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* ********************* 大曲狗年**********************/
+#index div.binnersix{
+    display: flex;
+    flex-direction: row;
+    margin: 10px -5px;
+}    
+#index div.binnersix div.binnersixson{
+    padding: 0 5px;
+
+    
+}
+#index div.binnersixson::after{
+   content:"";
+   clear: both;
+   display: block;
+
+} 
+#index div.binnersix div.binnersixson img{
+    width: 100%;
+}
+
+ #index div.binnersix::after{
+    content:"";
+
+ 
+    clear: both;
+    display: block;
+ 
+} 
+/* ********************* 广告**********************/
+#index div.binnerseven{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+
+}
+#index div.binnerseven::after{
+    content:"";
+    clear: both;
+    display: block;
+ 
+ }
+#index div.binnersevenson{
+    flex: 1;
+    height: 114px;
+}
+#index div.binnersevenson:first-child{
+    flex: 2;
+}
+#index div.binnersevenson img{
+    width: 100%;
+}
+#index div.binnerseven_2{
+    padding: 0 15px;
+}
+#index div.binnerseven_2 .binnerseven_2top{
+    margin:10px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#index div.binnerseven_2 .binnerseven_2top span{
+    color: red;
+    font-size: 14px;
+}
+#index div.binnerseven_2 .binnerseven_2son img{
+    width: 100%;    
+}
+/* *************************酒类详情************************/
+#index div.details{
+    display: flex;
+}
+#index div.details div.list{
+    width: 100%;
+    height: 44px;   
+}
+#index div.details div.list ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+#index div.details div.list ul li{
+    flex: 1;
+    font-size: 14px;
+
+    color: #333;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+.wudi li.wudi_son{
+    width:100px;
+    height: 100px;
+}
+.wudi li.wudi_son img{
+    width: 100%
+}

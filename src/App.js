@@ -5,7 +5,6 @@ class App extends Component{
   render() {
     return (
       <div>
-        app
         <Footer/>
         {this.props.children}
     </div>
